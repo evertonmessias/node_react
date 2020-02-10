@@ -54,8 +54,9 @@ class App extends Component {
     return (
       <div className="site">
         <header className="App-header">
+        <HeaderBlog></HeaderBlog>
           <img src={logo} className="App-logo" alt="logo" />          
-        <HeaderBlog>
+        </header>
         <main className="main">
 
           <fieldset><legend><strong>REACT + NODE EXPRESS</strong></legend>

@@ -1,11 +1,10 @@
 import React from 'react';
-
+import {} from 'carbon-components-react'
 
 const HeaderBlog = props => {
     return (
-      <h1>OII HEADER</h1>
+      <p>OII HEADER</p>
     );
   }
-
 
 export default HeaderBlog;
