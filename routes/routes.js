@@ -15,10 +15,7 @@ router.get('/api', (req, res) => {
   });
   
 router.post('/resp', (req, res) => {
-    console.log(req.body);
-    res.send(
-      `A mensagem enviada foi: ${req.body.post}`,
-    );
+    res.send(`A mensagem enviada foi: ${req.body.post}`);
   });
 
 /*
