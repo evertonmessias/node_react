@@ -1,0 +1,39 @@
+body{background-color: #ccc;}
+.main, .main fieldset{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.main {
+  padding: 10px;
+  width: 1200px;
+  min-height: 600px;
+  background-color: #fff;  
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #808080;
+  height: 100px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main fieldset{
+  top:50px;
+  width: 400px;
+  height: 180px;
+  text-align: center;
+}
