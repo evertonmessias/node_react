@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+import HeaderBlog from './components/HeaderBlog'
 
 class App extends Component {
 
@@ -53,8 +54,8 @@ class App extends Component {
     return (
       <div className="site">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+          <img src={logo} className="App-logo" alt="logo" />          
+        <HeaderBlog>
         <main className="main">
 
           <fieldset><legend><strong>REACT + NODE EXPRESS</strong></legend>
