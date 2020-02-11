@@ -11,11 +11,13 @@ body{background-color: #ccc;}
   background-color: #fff;  
 }
 
+.erro{color:red}
+
 .App-logo {
   margin-left: 30px;
   height: 100px;
   pointer-events: none;
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
 }
 
 .App-header {

@@ -18,12 +18,7 @@ router.post('/resp', (req, res) => {
     res.send(`A mensagem enviada foi: ${req.body.post}`);
 });
 
-router.get('/teste', (req, res)=>{
-    res.send("OI Axios");
-})
-
 /*
-
 
 router.get('/', (req, res) => {
     res.render("index", { LOGADO: LOGADO, ADMIN: ADMIN, USUARIOLOGADO: USUARIOLOGADO });

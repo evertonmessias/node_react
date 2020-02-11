@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import Categorias  from './Categorias';
 import Posts from './Posts';
 import Home from './Home';
+import Erro from './Erro';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path='/' component={ Home } />
           <Route path='/categorias' component={ Categorias } />
           <Route path='/posts' component={ Posts } />
+          <Route path='*' component={ Erro } />
         </Switch>
         </main>
         </BrowserRouter>
