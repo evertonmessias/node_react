@@ -1,5 +1,5 @@
 body{background-color: #ccc;}
-.main, .main fieldset{
+.main, .main fieldset, nav.menu{
   display: block;
   position: relative;
   margin: 0 auto;
@@ -12,13 +12,14 @@ body{background-color: #ccc;}
 }
 
 .App-logo {
+  margin-left: 30px;
   height: 100px;
   pointer-events: none;
   animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
-  background-color: #808080;
+  background-color: #aaa;
   height: 100px;
   color: white;
 }
@@ -36,4 +37,26 @@ body{background-color: #ccc;}
   width: 400px;
   height: 180px;
   text-align: center;
+}
+nav.menu{
+  top:35px;
+  width: 360px;
+  float:right;
+  margin-right: 100px;     
+}
+nav.menu .btn{
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #808080; 
+}
+nav.menu .btn:hover{
+  background-color: #ccc;
+  color: #000;
 }
