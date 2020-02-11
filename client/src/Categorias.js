@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-//import axios from 'axios';
+import axios from 'axios';
 class Categorias extends Component {
-
-  /*
+ 
   constructor(props) {
     super(props)
     axios
@@ -10,8 +9,7 @@ class Categorias extends Component {
       .then(result => {
         console.log(result)
       })
-  }
-  */
+  } 
 
   state = {
     response: '',
@@ -27,7 +25,7 @@ class Categorias extends Component {
   }
 
   callApi = async () => {
-    const response = await fetch('/api');
+    const response = await fetch('/categoria');
     const body = await response.json();
     if (response.status !== 200) throw Error(body.message);
 

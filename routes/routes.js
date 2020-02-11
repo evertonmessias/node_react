@@ -10,18 +10,17 @@ LOGADO = process.env.LOGADO;
 ADMIN = process.env.ADMIN;
 USUARIOLOGADO = process.env.USUARIOLOGADO;
 
-router.get('/api', (req, res) => {
+router.get('/categoria', (req, res) => {
     res.send({ express: 'SERVIDOR LIGADO NA PORTA ', porta: process.env.PORT });
+});
+
+router.post('/resp', (req, res) => {
+    res.send(`A mensagem enviada foi: ${req.body.post}`);
 });
 
 router.get('/teste', (req, res)=>{
     res.send("OI Axios");
 })
-
-
-router.post('/resp', (req, res) => {
-    res.send(`A mensagem enviada foi: ${req.body.post}`);
-});
 
 /*
 
